@@ -49,6 +49,7 @@ export default class FriendsList extends Component {
     ));
     return (
       <div>
+          <h1>I made some changes</h1>
         <h1>My Close Friends: </h1>
         {!this.state.showFriends ? <button onClick={this.toggleChange}>Show Me My Friends Please!</button> : <div>
             <button onClick={this.toggleChange}>Hide My Friends</button>
